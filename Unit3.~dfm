@@ -1,0 +1,54 @@
+object Form3: TForm3
+  Left = 364
+  Top = 231
+  Width = 486
+  Height = 289
+  Caption = 'Решения Задания D20'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 192
+    Top = 224
+    Width = 113
+    Height = 33
+    Caption = 'Далее'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = BitBtn1Click
+    Kind = bkRetry
+  end
+  object Memo1: TMemo
+    Left = 0
+    Top = 8
+    Width = 473
+    Height = 209
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Monotype Corsiva'
+    Font.Style = [fsBold, fsItalic]
+    Lines.Strings = (
+      '  В этой программе рассматривается решение'
+      'задания D20 для 11 варианта. При необходимости'
+      'можно изменить начальные условия на другие. '
+      '(В Unit1 имеются следующие пункты '
+      'Var (исходные данные), Public (искомые величины),'
+      'Begin (нахождение искомых величин), кроме того '
+      'в программе указаны пояснения для всех '
+      'процессов и величин).')
+    ParentFont = False
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,125 @@
+unit Unit2;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, Buttons;
+
+type
+  TForm2 = class(TForm)
+    Label1: TLabel;
+    BitBtn1: TBitBtn;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label19: TLabel;
+    Label20: TLabel;
+    Label21: TLabel;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label24: TLabel;
+    Label25: TLabel;
+    Label26: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label29: TLabel;
+    Label30: TLabel;
+    Label31: TLabel;
+    Label32: TLabel;
+    Label33: TLabel;
+    Label34: TLabel;
+    Label35: TLabel;
+    Label36: TLabel;
+    Label37: TLabel;
+    Label38: TLabel;
+    Label39: TLabel;
+    Label40: TLabel;
+    Label41: TLabel;
+    Label42: TLabel;
+    BitBtn2: TBitBtn;
+    procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+uses Unit1, Unit3;
+
+{$R *.DFM}
+
+procedure TForm2.BitBtn1Click(Sender: TObject);
+begin
+{Вывод управляющего момента 1 звена}
+Label1.Caption:=FloatToStr(Int(Form1.A[1]*100)/100);
+Label2.caption:=FloatToStr(Int(Form1.A[2]*100)/100);
+Label3.caption:=FloatToStr(Int(Form1.A[3]*100)/100);
+Label4.caption:=FloatToStr(Int(Form1.A[4]*100)/100);
+Label5.caption:=FloatToStr(Int(Form1.A[5]*100)/100);
+Label6.caption:=FloatToStr(Int(Form1.A[6]*100)/100);
+Label7.caption:=FloatToStr(Int(Form1.A[7]*100)/100);
+Label8.caption:=FloatToStr(Int(Form1.A[8]*100)/100);
+Label9.caption:=FloatToStr(Int(Form1.A[9]*100)/100);
+Label10.caption:=FloatToStr(Int(Form1.A[10]*100)/100);
+Label11.caption:=FloatToStr(Int(Form1.A[11]*100)/100);
+Label12.caption:=FloatToStr(Int(Form1.A[12]*100)/100);
+Label13.caption:=FloatToStr(Int(Form1.A[13]*100)/100);
+Label14.caption:=FloatToStr(Int(Form1.A[14]*100)/100);
+Label15.caption:=FloatToStr(Int(Form1.A[15]*100)/100);
+Label16.caption:=FloatToStr(Int(Form1.A[16]*100)/100);
+Label17.caption:=FloatToStr(Int(Form1.A[17]*100)/100);
+Label18.caption:=FloatToStr(Int(Form1.A[18]*100)/100);
+Label19.caption:=FloatToStr(Int(Form1.A[19]*100)/100);
+Label20.caption:=FloatToStr(Int(Form1.A[20]*100)/100);
+{Вывод управляющего момента 2 звена}
+Label21.caption:=FloatToStr(Int(Form1.B[1]*100)/100);
+Label22.caption:=FloatToStr(Int(Form1.B[2]*100)/100);
+Label23.caption:=FloatToStr(Int(Form1.B[3]*100)/100);
+Label24.caption:=FloatToStr(Int(Form1.B[4]*100)/100);
+Label25.caption:=FloatToStr(Int(Form1.B[5]*100)/100);
+Label26.caption:=FloatToStr(Int(Form1.B[6]*100)/100);
+Label27.caption:=FloatToStr(Int(Form1.B[7]*100)/100);
+Label28.caption:=FloatToStr(Int(Form1.B[8]*100)/100);
+Label29.caption:=FloatToStr(Int(Form1.B[9]*100)/100);
+Label30.caption:=FloatToStr(Int(Form1.B[10]*100)/100);
+Label31.caption:=FloatToStr(Int(Form1.B[11]*100)/100);
+Label32.caption:=FloatToStr(Int(Form1.B[12]*100)/100);
+Label33.caption:=FloatToStr(Int(Form1.B[13]*100)/100);
+Label34.caption:=FloatToStr(Int(Form1.B[14]*100)/100);
+Label35.caption:=FloatToStr(Int(Form1.B[15]*100)/100);
+Label36.caption:=FloatToStr(Int(Form1.B[16]*100)/100);
+Label37.caption:=FloatToStr(Int(Form1.B[17]*100)/100);
+Label38.caption:=FloatToStr(Int(Form1.B[18]*100)/100);
+Label39.caption:=FloatToStr(Int(Form1.B[19]*100)/100);
+Label40.caption:=FloatToStr(Int(Form1.B[20]*100)/100);
+end;
+
+procedure TForm2.BitBtn2Click(Sender: TObject);
+begin
+Form3.Close;
+Form1.Close;
+Form2.Close;
+end;
+
+end.
